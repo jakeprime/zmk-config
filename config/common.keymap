@@ -1,0 +1,38 @@
+/ {
+  macros {
+    ZMK_MACRO(caps_macro,
+      tap-ms = <200>;
+      bindings = <&kp CAPS>;
+    )
+  };
+
+  behaviors {
+    ltc: layer_tap_capslock {
+      compatible = "zmk,behavior-hold-tap";
+      label = "LT_CAPS";
+      #binding-cells = <2>;
+      tapping-term-ms = <200>;
+      quick-tap-ms = <0>;
+      flavor = "tap-preferred";
+      bindings = <&mo>, <&caps_macro>;
+    };
+    hm: homerow_mods {
+      compatible = "zmk,behavior-hold-tap";
+      label = "HM_MODS";
+      #binding-cells = <2>;
+      tapping-term-ms = <200>;
+      quick-tap-ms = <0>;
+      flavor = "balanced";
+      bindings = <&kp>, <&kp>;
+    };
+    ltt: layer_tap_thumb {
+      compatible = "zmk,behavior-hold-tap";
+      label = "LT_THUMB";
+      #binding-cells = <2>;
+      tapping-term-ms = <100>;
+      quick-tap-ms = <0>;
+      flavor = "hold-preferred";
+      bindings = <&mo>, <&kp>;
+    };
+  };
+};
