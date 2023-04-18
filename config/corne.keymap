@@ -20,46 +20,46 @@
 
     default_layer {
       bindings = <
-        DEF_L_3 DEF_R_3
-        DEF_L_2 DEF_R_2
-        DEF_L_1 DEF_R_1
-        DEF_L_0 DEF_R_0
+        &none DEF_L_3 DEF_R_3 &none
+        &none DEF_L_2 DEF_R_2 &none
+        &none DEF_L_1 DEF_R_1 &none
+        &none DEF_L_0 DEF_R_0 &none
       >;
     };
 
     symbols_layer {
       bindings = <
-        SYM_L_3 SYM_R_3
-        SYM_L_2 SYM_R_2
-        SYM_L_1 SYM_R_1
-        SYM_L_0 SYM_R_0
+        &none SYM_L_3 SYM_R_3 &none
+        &none SYM_L_2 SYM_R_2 &none
+        &none SYM_L_1 SYM_R_1 &none
+        &none SYM_L_0 SYM_R_0 &none
       >;
     };
 
     nav_layer {
       bindings = <
-        NAV_L_3 NAV_R_3
-        NAV_L_2 NAV_R_2
-        NAV_L_1 NAV_R_1
-        NAV_L_0 NAV_R_0
+        &none NAV_L_3 NAV_R_3 &none
+        &none NAV_L_2 NAV_R_2 &none
+        &none NAV_L_1 NAV_R_1 &none
+        &none NAV_L_0 NAV_R_0 &none
       >;
     };
 
     num_layer {
       bindings = <
-        NUM_L_3 NUM_R_3
-        NUM_L_2 NUM_R_2
-        NUM_L_1 NUM_R_1
-        NUM_L_0 NUM_R_0
+        &none NUM_L_3 NUM_R_3 &none
+        &none NUM_L_2 NUM_R_2 &none
+        &none NUM_L_1 NUM_R_1 &none
+        &none NUM_L_0 NUM_R_0 &none
       >;
     };
 
     media_layer {
       bindings = <
-        MED_L_3 MED_R_3
-        MED_L_2 MED_R_2
-        MED_L_1 MED_R_1
-        MED_L_0 MED_R_0
+        &none MED_L_3 MED_R_3 &none
+        &none MED_L_2 MED_R_2 &none
+        &none MED_L_1 MED_R_1 &none
+        &none MED_L_0 MED_R_0 &none
       >;
     };
   };
