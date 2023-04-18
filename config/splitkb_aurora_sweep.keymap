@@ -1,0 +1,66 @@
+/*
+ * Copyright (c) 2020 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/ext_power.h>
+#include <dt-bindings/zmk/outputs.h>
+
+#include "common.h"
+#include "common.keymap"
+
+
+/ {
+  keymap {
+    compatible = "zmk,keymap";
+
+    default_layer {
+      bindings = <
+        DEF_L_3 DEF_R_3
+        DEF_L_2 DEF_R_2
+        DEF_L_1 DEF_R_1
+        DEF_L_0 DEF_R_0
+      >;
+    };
+
+    symbols_layer {
+      bindings = <
+        SYM_L_3 SYM_R_3
+        SYM_L_2 SYM_R_2
+        SYM_L_1 SYM_R_1
+        SYM_L_0 SYM_R_0
+      >;
+    };
+
+    nav_layer {
+      bindings = <
+        NAV_L_3 NAV_R_3
+        NAV_L_2 NAV_R_2
+        NAV_L_1 NAV_R_1
+        NAV_L_0 NAV_R_0
+      >;
+    };
+
+    num_layer {
+      bindings = <
+        NUM_L_3 NUM_R_3
+        NUM_L_2 NUM_R_2
+        NUM_L_1 NUM_R_1
+        NUM_L_0 NUM_R_0
+      >;
+    };
+
+    media_layer {
+      bindings = <
+        MED_L_3 MED_R_3
+        MED_L_2 MED_R_2
+        MED_L_1 MED_R_1
+        MED_L_0 MED_R_0
+      >;
+    };
+  };
+};
