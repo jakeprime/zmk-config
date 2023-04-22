@@ -27,7 +27,7 @@
 
 // SYMBOLS
 //              ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-#define SYM_L_3  &trans        &kp CARET     &kp LBRC      &kp RBRC      &kp LA(N3)
+#define SYM_L_3  &trans        &kp CARET     &kp LBRC      &kp RBRC      &kp RA(N3)
 //              ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
 #define SYM_L_2  &kp AMPS      &kp PIPE      &kp LPAR      &kp RPAR      &kp DLLR
 //              ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
@@ -49,7 +49,7 @@
 
 // NAVIGATION
 //              ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-#define NAV_L_3  &trans        &kp CARET     &kp LBRC      &kp RBRC      &kp LA(N3)
+#define NAV_L_3  &trans        &kp CARET     &kp LBRC      &kp RBRC      &kp RA(N3)
 //              ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
 #define NAV_L_2  &kp AMPS      &kp PIPE      &kp LPAR      &kp RPAR      &kp DLLR
 //              ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
