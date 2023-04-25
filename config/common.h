@@ -112,7 +112,7 @@
 //              ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
 #define MED_R_3  &trans &kp LS(LA(C_VOL_DN)) &kp LS(LA(C_VOL_UP)) &trans &out OUT_TOG
 //              ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-#define MED_R_2  &trans        &kp C_VOL_DN  &kp C_VOL_UP  &trans        &ext_power EP_OFF
+#define MED_R_2  &kp C_PREV    &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT    &ext_power EP_OFF
 //              ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
 #define MED_R_1  &kp LS(LC(LG(N4))) &kp C_PP &kp K_MUTE    &trans        &kp C_PWR
 //              ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
