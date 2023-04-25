@@ -4,11 +4,20 @@
 #define NUM 3
 #define MED 4
 
+#define L_C LCTRL
+#define L_A LALT
+#define L_G LCMD
+#define L_S LSHIFT
+#define R_C RCTRL
+#define R_A LALT
+#define R_G RCMD
+#define R_S RSHIFT
+
 // DEFAULT
 //              ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
 #define DEF_L_3  &kp Q         &kp W         &kp E         &kp R         &kp T
 //              ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-#define DEF_L_2  &hm LCTRL A   &hm LALT S    &hm LCMD D    &hm LSHIFT F  &kp G
+#define DEF_L_2  &hm L_C A     &hm L_A S     &hm L_G D     &hm L_S F     &kp G
 //              ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
 #define DEF_L_1  &kp Z         &kp X         &kp C         &kp V         &kp B
 //              ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤
@@ -18,7 +27,7 @@
 //              ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
 #define DEF_R_3  &kp Y         &kp U         &kp I         &kp O         &kp P
 //              ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-#define DEF_R_2  &kp H         &hm RSHIFT J  &hm RCMD K    &hm LALT L    &hm RCTRL SEMI
+#define DEF_R_2  &kp H         &hm R_S J     &hm R_G K     &hm R_A L     &hm R_C SEMI
 //              ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
 #define DEF_R_1  &kp N         &kp M         &kp COMMA     &kp DOT       &kp FSLH
 //              ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
@@ -29,7 +38,7 @@
 //              ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
 #define SYM_L_3  &trans        &kp CARET     &kp LBRC      &kp RBRC      &kp RA(N3)
 //              ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-#define SYM_L_2  &kp AMPS      &kp PIPE      &kp LPAR      &kp RPAR      &kp DLLR
+#define SYM_L_2  &hm L_C AMPS  &hm L_A PIPE  &hm L_G LPAR  &hm L_S RPAR  &kp DLLR
 //              ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
 #define SYM_L_1  &kp PRCNT     &kp STAR      &kp LBKT      &kp RBKT      &kp LS(N3)
 //              ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤
@@ -39,7 +48,7 @@
 //              ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
 #define SYM_R_3  &kp BSLH      &kp SQT       &kp DQT       &kp GRAVE     &kp AT
 //              ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-#define SYM_R_2  &kp TILDE     &kp UNDER     &kp MINUS     &kp PLUS      &kp COLON
+#define SYM_R_2  &kp TILDE     &hm R_S UNDER &hm R_G MINUS &hm R_A PLUS  &hm R_C COLON
 //              ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
 #define SYM_R_1  &kp EXCL      &kp EQUAL     &kp LT        &kp GT        &kp QMARK
 //              ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
@@ -51,7 +60,7 @@
 //              ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
 #define NAV_L_3  &trans        &kp CARET     &kp LBRC      &kp RBRC      &kp RA(N3)
 //              ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-#define NAV_L_2  &kp AMPS      &kp PIPE      &kp LPAR      &kp RPAR      &kp DLLR
+#define NAV_L_2  &hm L_C AMPS  &hm L_A PIPE  &hm L_G LPAR  &hm L_S RPAR  &kp DLLR
 //              ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
 #define NAV_L_1  &kp PRCNT     &kp STAR      &kp LBKT      &kp RBKT      &kp LS(N3)
 //              ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤
